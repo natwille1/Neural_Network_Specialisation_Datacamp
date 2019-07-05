@@ -1,5 +1,9 @@
 # Define team lookup
-# Shared layers allow a model to use the same weight matrix for multiple steps. In this exercise, you will build a "team strength" layer that represents each team by a single number. You will use this number for both teams in the model. The model will learn a number for each team that works well both when the team is team_1 and when the team is team_2 in the input data.
+# Shared layers allow a model to use the same weight matrix for multiple steps.
+# In this exercise, you will build a "team strength" layer that represents each
+# team by a single number. You will use this number for both teams in the model.
+# The model will learn a number for each team that works well both when the team is team_1
+# and when the team is team_2 in the input data.
 #
 # The games_season DataFrame is available in your workspace.
 
