@@ -1,3 +1,11 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+def ecdf(data):
+    n = len(data)
+    x = np.sort(data)
+    y = np.arange(1, n+1) / n 
+    return x, y
 # Draw 100000 samples from Normal distribution with stds of interest: samples_std1, samples_std3, samples_std10
 
 samples_std1 = np.random.normal(20, 1, size=100000)
